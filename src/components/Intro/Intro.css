@@ -1,0 +1,95 @@
+.intro {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    z-index: -2;
+    text-align: center;
+}
+
+.intro-mid {
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    z-index: -2;
+}
+
+.intro-mid h1 {
+    padding-top: 4rem !important;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 15);
+    box-shadow: inset 0 0 5rem rgba(0, 0, 0, 30);
+}
+
+.introText {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.01);
+    /* z-index: -2; */
+}
+
+.introText h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    /* background: #fff; */
+    /* background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
+    color: white;
+}
+
+.introText p {
+    font-size: 1.3rem;
+    color: #fff;
+    padding: 0.5rem 0 2rem 0;
+}
+
+.introText .show {
+    text-decoration: none;
+    background: #fff;
+    padding: 1rem 2rem;
+    border-radius: 6px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+
+}
+
+.introText .show:hover {
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+}
+
+.introText .hide {
+    display: none;
+}
+
+@media screen and (max-width: 555px) {
+    .introText h1 {
+        padding: 10px 20px;
+    }
+
+    .introText p {
+        font-size: 1rem;
+        padding: 0 0 2rem 0;
+    }
+
+    .introText .show {
+        padding: 0.6rem 1.1rem;
+        border-radius: 6px;
+        font-size: 1rem;
+    }
+}
