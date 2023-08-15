@@ -9,7 +9,7 @@ function About() {
             <Navbar />
             <Intro
                 cName="intro-mid"
-                introImg="https://plus.unsplash.com/premium_photo-1664109999781-27f77214bcfc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+                introImg="https://images.unsplash.com/photo-1574680178050-55c6a6a96e0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=869&q=80"
                 title="About"
                 btnClass="hide"
             />
