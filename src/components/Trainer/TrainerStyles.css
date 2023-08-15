@@ -16,7 +16,7 @@
 }
 
 .left-t>:nth-child(1) {
-    color: lightblue;
+    color: gold;
     font-weight: bold;
 }
 
@@ -90,9 +90,14 @@
 .Thr {
     position: absolute;
     width: 11rem;
-    border: 2px solid lightblue;
+    border: 2px solid gold;
     border-radius: 20%;
     margin: -10px 0;
+}
+
+.ns {
+    color: gold;
+    font-weight: 300;
 }
 
 @media screen and (max-width:750px) {

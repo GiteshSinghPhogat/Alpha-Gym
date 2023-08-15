@@ -6,7 +6,7 @@ import rightArrow from '../../images/Arrow_right.png'
 
 const Trainer = () => {
 
-    const [selected, setSelected] = useState(0);
+    const [selected, setSelected] = useState(1);
     const tLength = TrainerData.length;
 
     return (
@@ -16,7 +16,7 @@ const Trainer = () => {
                 <span className="stroke-text">Ready To Level</span>
                 <span>Up With Us</span>
                 <span>{TrainerData[selected].about}</span>
-                <span >
+                <span className="ns">
                     <span>
                         {TrainerData[selected].name}
                     </span>{" "}

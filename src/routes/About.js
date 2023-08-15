@@ -1,6 +1,7 @@
 import Navbar from "../components/NavBar/Navbar";
 import Intro from "../components/Intro/Intro";
 import Footer from "../components/Footer/Footer";
+import AboutUs from "../components/About/AboutUs";
 
 function About() {
     return (
@@ -12,6 +13,7 @@ function About() {
                 title="About"
                 btnClass="hide"
             />
+            <AboutUs />
             <Footer />
         </>
     )

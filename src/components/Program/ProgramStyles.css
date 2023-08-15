@@ -63,7 +63,7 @@
 }
 
 .category:hover {
-    background-color: lightblue;
+    background-color: gold;
     /* cursor: pointer; */
     transform: scale(1.05);
 }
