@@ -1,8 +1,10 @@
 import './ProgramStyles.css';
 import { programsData } from './ProgramData';
+import { Link } from 'react-router-dom';
 
 const Program = () => {
     return (
+
         <div className="Programs">
             <div className="programs-header">
                 <h1 className='stroke-text'>Explore Our Programs </h1>
@@ -14,7 +16,7 @@ const Program = () => {
                         <img src={program.imageUrl}></img>
                         <span>{program.heading}</span>
                         <span>{program.details}</span>
-                        <button onClick="../contact form/ContactFrom.js">Join Now</button>
+                        <Link to="/contact" className='main-join'>Join Now</Link>
                     </div>
                 ))}
             </div>

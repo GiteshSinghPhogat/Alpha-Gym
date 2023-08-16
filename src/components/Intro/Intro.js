@@ -11,6 +11,7 @@ function Intro(props) {
                 <Link to={props.url} className={props.btnClass}>{props.btnText}</Link>
             </div>
         </div>
+
     </>)
 }
 
