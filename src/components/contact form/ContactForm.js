@@ -1,9 +1,11 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import "./ContactFormStyles.css";
+import { useNavigate } from "react-router-dom";
 
 function ContactFrom() {
     const form = useRef()
+    const navigate = useNavigate();
 
     const sendEmail = (e) => {
         e.preventDefault();
@@ -14,6 +16,8 @@ function ContactFrom() {
             }, (error) => {
                 console.log(error.text);
             });
+
+        navigate('/');
     };
 
     return (
